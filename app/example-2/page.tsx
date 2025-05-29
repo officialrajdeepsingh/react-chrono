@@ -38,7 +38,6 @@ export default function page() {
         readMore={true}
         mode="VERTICAL_ALTERNATING"
         flipLayout="VERTICAL_ALTERNATING"
-        // flipLayout="VERTICAL"
         disableToolbar={true}
       />
     </div>
