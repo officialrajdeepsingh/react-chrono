@@ -1,9 +1,9 @@
 # How to Build Timelines in React Using React Chrono?
 
-Learn how to integrate the Magic UI library into a Next.js 15 project.
+Step-by-Step: Building Timelines in React Using React Chrono.
 
 ---
-[How to Build Timelines in React Using React Chrono?](https://officialrajdeepsingh.medium.com/13bc1ced470a)
+[How to Build Timelines in React Using React Chrono?](https://medium.com/frontendweb/how-to-build-timelines-in-react-using-react-chrono-13bc1ced470a)
 ---
 
 ## Demo
