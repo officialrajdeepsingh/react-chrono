@@ -29,29 +29,21 @@ const items = [
 
 export default function page() {
   return (
-    <>
-      <div className="p-4 bg-gray-100 mt-12 container mx-auto">
-        <Chrono items={items} mode="HORIZONTAL" slideShow />
-      </div>
-      <div className="container py-4 my-28">
-        <h1 className="text-6xl"> Example 5</h1>
-      </div>
-      <div className="p-4 bg-gray-100 mt-12 container mx-auto">
-        <Chrono
-          theme={{
-            cardBgColor: "black",
-            titleColor: "black",
-            titleColorActive: "white",
-          }}
-          items={items}
-          cardWidth={464}
-          disableToolbar={true}
-          mode="HORIZONTAL"
-          slideShow={true}
-          itemWidth={150}
-          showSingle
-        />
-      </div>
-    </>
+    <div className="p-4 bg-gray-100 mt-12 container mx-auto">
+      <Chrono
+        theme={{
+          cardBgColor: "black",
+          titleColor: "black",
+          titleColorActive: "white",
+        }}
+        items={items}
+        cardWidth={464}
+        disableToolbar={true}
+        mode="HORIZONTAL"
+        slideShow={true}
+        itemWidth={150}
+        showSingle
+      />
+    </div>
   );
 }
